@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "rxjs": "^5.5.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.1.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^22.1.1",
+    "prettier": "1.10.2",
+    "puppeteer": "^1.0.0",
+    "webpack": "^3.10.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "prettier": "prettier --single-quote --trailing-comma es5 'test/**/*.js'",
+    "prettier:write": "yarn prettier -- --write",
+    "build": "webpack"
+  }
+}
